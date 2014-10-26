@@ -1,9 +1,41 @@
+header{
+    display:block;
+    margin:0 auto;
+    width:500px;
+    text-align:center;
+}
+
+header h1{
+    font-family:Arial;
+    font-size:60px;
+    font-weight:bold;
+    margin:20px auto;
+}
+header div>p,a{
+	display:inline-block;
+    margin:0 auto;
+	height: 20px;
+    width:100px;
+    padding:10px 10px;
+	background-color:#8f7a66;
+	font-family:Arial;
+    color:white;
+
+    border-radius:10px;
+    text-decoration:none;
+}
+
+header #newgamebutton:hover{
+    background-color:#9f8b77;
+}
+
+
 .panel{
 	position: relative;
 	width:460px;
 	height:460px;
 	padding: 20px;
-	/*margin: 80px 350px;*/
+	margin: 10px auto;
 	background-color: #bbada0;
 	border-radius:10px;
 }
